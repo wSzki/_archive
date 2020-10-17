@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<style>
+    
+/*COLOR BANK ------------------------------------------*/
+
+.gruvbox{color: #1d2021}
+.gruvbox{color: #282828}
+.gruvbox{color: #32302f}
+.gruvbox{color: #3c3836}
+.gruvbox{color: #504945}
+.gruvbox{color: #665c54}
+.gruvbox{color: #7c6f64}
+.gruvbox{color: #7c6f64}
+.gruvbox{color: #928374}
+.gruvbox{color: #928374}
+.gruvbox{color: #f9f5d7}
+.gruvbox{color: #fbf1c7}
+.gruvbox{color: #f2e5bc}
+.gruvbox{color: #ebdbb2}
+.gruvbox{color: #d5c4a1}
+.gruvbox{color: #bdae93}
+.gruvbox{color: #a89984}
+.gruvbox{color: #a89984}
+
+.gruvbox{color: #fb4934}            
+.gruvbox{color: #b8bb26}            
+.gruvbox{color: #fabd2f}          
+.gruvbox{color: #83a598}          
+.gruvbox{color: #d3869b}          
+.gruvbox{color: #8ec07c}          
+.gruvbox{color: #fe8019}       
+.gruvbox{color: #cc241d}        
+.gruvbox{color: #98971a}       
+.gruvbox{color: #d79921}       
+.gruvbox{color: #458588}       
+.gruvbox{color: #b16286}          
+.gruvbox{color: #689d6a}          
+.gruvbox{color: #d65d0e}            
+.gruvbox{color: #9d0006}           
+.gruvbox{color: #79740e}         
+.gruvbox{color: #b57614}            
+.gruvbox{color: #076678}            
+.gruvbox{color: #8f3f71}            
+.gruvbox{color: #427b58}            
+.gruvbox{color: #af3a03}   
+
+/*GLOBAL ---------------------------------------------*/
+*   {   padding:0px; margin: 0px    ;}
+
+html{   
+        font-family: monospace;
+        margin:     3%;
+        position:   absolute;
+        top:        0px;
+        bottom:     0px;
+        left:       0px;
+        right:      0px;             
+    }
+
+/*WIDTH & HEIGHT ---------------------------------------------*/
+.fill   {width: 100%;          height:100%;}
+.w0h0   {width:  0px;          height: 0px;}
+
+.w100   {width: 100%} .h100   {height: 100%}
+.w75    {width:  75%} .h75    {height:  75%}
+.w66    {width:  66%} .h66    {height:  66%}
+.w50    {width:  50%} .h50    {height:  50%}
+.w33    {width:  33%} .h33    {height:  33%}
+.w25    {width:  25%} .h25    {height:  25%}
+.w15    {width:  15%} .h15    {height:  15%}
+.w10    {width:  10%} .h10    {height:  10%}
+.w0     {width:   0%} .h10    {height:   0%}
+
+/*FLEXIN ---------------------------------------------*/
+.flex           {display:        flex          ;} .jcsb           {justify-content: space-between ;} 
+.column         {flex-direction: column        ;} .jcsa           {justify-content: space-around  ;}
+.row            {flex-direction: row           ;} .jcc            {justify-content: center        ;}
+.rowRev         {flex-direction: row-reverse   ;} .aic            {align-items:     center        ;}
+.colRev         {flex-direction: column-reverse;} .underlign      {text-decoration: underline     ;}
+
+/*TEXT SIZE------------------------------------------*/
+.textXL{font-size:    2em;}
+.textL {font-size:  1.5em;}
+.textM {font-size:    1em;}
+.textS {font-size: 0.75em;}
+.textXS{font-size:  0.5em;}
+
+/*TEXT COLOR------------------------------------------*/
+.textWhite{color: #ebdbb2}  
+
+/*BACKGROUND COLORS-----------------------------------*/
+.bgblack{background-color: #1d2021}
+
+
+/*BORDERS---------------------------------------------*/
+.reddots{border-width: 1px; border-color: red; border-style: dotted; box-sizing: border-box;}
+
+
+/*SIZIN ----------------------------------------------*/
+#frame                  {border-width: 1px; border-color: #ebdbb2; border-style: solid; box-sizing: border-box;}
+    
+    #nav                        { width: 100%; height:  10%; }
+        #logoContainer          { width:  15%; height: 100%; }
+            #logo               { width:  50%;               }
+        #navBar                 { width:  80%; height: 100%; }
+            .navButton          { width:  15%; height:  25%; }
+            #about              { width:  10%; height: 100%; }
+
+    #main                       { width: 100%; height:  80%; }
+        #hellomynameis          { width:  50%; height:  20%; }
+        #iamdev                 { width:  30%; height:  12%; }
+        #downArrow              { width:   5%; height:   5%; }
+
+    #smallButtonDiv             { width: 100%; height:   5%; }
+        #smallButton            { width:   5%; height: 100%; }
+
+    #footer                     { width: 100%; height:  10%; }
+        #legal                  { width:  20%; height: 100%; }
+            #gitIcon            {              height:  50%; } 
+            #linkedInIcon       {              height:  50%; } 
+            #contactIcon        {              height:  50%; } 
+            #legal              { width:  15%; height: 100%; }
+            #contact            { width:  15%; height: 100%; }
+
+
+</style>
+
+
+<html id="html" class=" bgblack flex jcc aic">
+<body class="fill flex aic jcsa fadein fadein2">
+
+    <div id="frame" class=" fill flex column ">
+    
+    <!--NAV------------------------------------------------------------------------------->
+        <div id="nav" class="flex row jcsb reddots">
+            <div id="logoContainer" class="flex jcc aic reddots textWhite underlign textLarge">CV</div>
+            <div id="about" class="reddots flex jcc aic textWhite textLarge underlign">About</div>
+        </div>
+
+    <!--MAIN------------------------------------------------------------------------------->
+        <div id="main" class="flex column aic jcc reddots" onclick="expShr(this.id)">
+        
+            <div id="hellomynameis" class="reddots flex jcc aic textWhite  textLarge">Hello, my name is William.</div>
+            <div id="iamdev" class="reddots flex aic jcc textWhite textLarge">I am a web dev.</div>
+            <div id="downArrow" class="reddots"></div>
+        
+        </div>
+
+    <!-- SMALL BUTTON --------------------------------------------------------------------->
+
+        <div id="smallButtonDiv" class="flex jcc reddots">
+            
+            <div id="smallButton" class="reddots"></div>
+        
+        </div>
+
+    <!--FOOT------------------------------------------------------------------------------->
+        <div id="footer" class="flex jcsb aic reddots">
+
+            <div id="legal" class="flex row jcsa aic reddots">
+                <img style="height: 60%" src="./logo3.svg" alt="">
+            </div>
+            
+            <div id="contact" class="reddots flex jcc aic textWhite underlign textLarge">Contact</div>
+            
+        </div>
+
+</body>
+
+        <script defer>
+
+function expShr(a){
+
+        const elementId = document.querySelector("#" + a)
+        const height = getComputedStyle(elementId).height
+        console.log("Element height = " + height)
+
+        const parentId = elementId.parentNode.id
+        const parentElement = document.querySelector("#" + parentId)
+        console.log(parentElement)
+        const parentHeight = getComputedStyle(parentElement).height
+        console.log("Parent height = " + parentHeight)
+
+
+        console.log("Height of element relative to parent = " + (Math.floor(parseFloat(height)/parseFloat(parentHeight)*100)))
+
+}
+        </script>
+        
+</html>

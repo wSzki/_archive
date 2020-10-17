@@ -1,0 +1,26 @@
+
+
+
+
+
+sudo mariadb
+
+    #Delete and create db
+DROP DATABASE IF EXISTS <name of database>;
+CREATE DATABASE <name of DB>;
+
+    #Change DB
+use <name of DB>;
+
+    #Delete and create user
+DROP USER '<username>'@'localhost';
+CREATE USER '<username>'@'localhost' IDENTIFIED BY '<userpass>';
+
+    #Get info for all users
+select host,user,password from mysql.user;
+
+    #Check user privileges
+SELECT host, user, select_priv, insert_priv, update_priv, delete_priv, create_priv, alter_priv, password FROM mysql.user WHERE user='wsz';
+
+GRANT ALL PRIVILEGES ON *.* TO 'wsz'@'localhost';
+

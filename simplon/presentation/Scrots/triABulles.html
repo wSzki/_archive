@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<script>
+    window.onload = function () {
+
+        // Creation du tableau avec valeurs aleatoires
+        const tab = [96, 55, 785, 72, 563]
+
+        // Creation d'une variable "temporaire" qui sera utiliser pour echanger deux valeurs au sein d'un meme tableau
+        let tabTemp;
+
+        // Compteur de la boucle
+        let i = 0;
+
+        // On Boucle avec [i] dans le tableau. [i] Correspond a la valeur a laquelle on va comparer le reste du tableau
+        while (i < tab.length) {
+                // On definit ici la valeur de j, soit l'element suivant le N-ieme element du tableau 
+                // si [i] = 0, alors j = [1] ; si i = [73] alors j = [74] ; etc...
+                j = i + 1
+                //On compare tab[i] a tout le reste de tab
+                // Si tab[i] > tab[i + 1], soit si un elemen du tableau est plus grand que le suivant, on leur echange leur place
+                if (tab[i] > tab[j]) {
+                    // Utilisation de la variable "temporaire" pour swap les valeurs
+                    // Imagine que tu as deux bouteilles pleines
+                    // Tu veux transvaser le contenu de l'une dans l'autre
+                    // Alors tu prends une troisemene bouteille vide
+                    // Tu verse le contenu de la premiere dans la troisieme qui est vide
+                    // Tu verse le contenu de la deuxieme dans la premiere
+                    // Et enfin tu verses le contenu de la troisieme qui contient maintenant la premiere dans la troisieme
+                    // Fais un dessin
+                    tabTemp = tab[j]
+                    tab[j] = tab[i]
+                    tab[i] = tabTemp
+
+                    // Si il y a un valeur a echanger, on relance la comparaison a partir du premier element du tableau soit tab[i = 0], pour verifier que tout est en ordre
+                    i = 0
+
+                    // Un bonjour c'est gratuit
+                    console.log("hello")
+                }
+
+                // On incremente et on passe a la
+                i++;
+            
+        }
+        console.log(tab)
+    }
+</script>
+</html>

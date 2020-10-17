@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<style>
+    
+/*COLOR BANK ------------------------------------------*/
+
+.gruvbox{color: #1d2021}
+.gruvbox{color: #282828}
+.gruvbox{color: #32302f}
+.gruvbox{color: #3c3836}
+.gruvbox{color: #504945}
+.gruvbox{color: #665c54}
+.gruvbox{color: #7c6f64}
+.gruvbox{color: #7c6f64}
+.gruvbox{color: #928374}
+.gruvbox{color: #928374}
+.gruvbox{color: #f9f5d7}
+.gruvbox{color: #fbf1c7}
+.gruvbox{color: #f2e5bc}
+.gruvbox{color: #ebdbb2}
+.gruvbox{color: #d5c4a1}
+.gruvbox{color: #bdae93}
+.gruvbox{color: #a89984}
+.gruvbox{color: #a89984}
+
+.gruvbox{color: #fb4934}            
+.gruvbox{color: #b8bb26}            
+.gruvbox{color: #fabd2f}          
+.gruvbox{color: #83a598}          
+.gruvbox{color: #d3869b}          
+.gruvbox{color: #8ec07c}          
+.gruvbox{color: #fe8019}       
+.gruvbox{color: #cc241d}        
+.gruvbox{color: #98971a}       
+.gruvbox{color: #d79921}       
+.gruvbox{color: #458588}       
+.gruvbox{color: #b16286}          
+.gruvbox{color: #689d6a}          
+.gruvbox{color: #d65d0e}            
+.gruvbox{color: #9d0006}           
+.gruvbox{color: #79740e}         
+.gruvbox{color: #b57614}            
+.gruvbox{color: #076678}            
+.gruvbox{color: #8f3f71}            
+.gruvbox{color: #427b58}            
+.gruvbox{color: #af3a03}   
+
+/*GLOBAL ---------------------------------------------*/
+*   {   padding:0px; margin: 0px    ;}
+html{   width: 100%; height: 100%   ;}
+body{   width: 100%; height: 100%   ;}
+/*
+html{   
+        font-family: monospace;
+        margin:     0%;
+        position:   absolute;
+        top:        0px;
+        bottom:     0px;
+        left:       0px;
+        right:      0px;             
+    }
+*/
+
+/*WIDTH & HEIGHT--------------------------------------*/
+.frja    {display: flex; justify-content: center; align-items: center; flex-direction: row   ;}
+.fcja    {display: flex; justify-content: center; align-items: center; flex-direction: column;}
+
+.fill   {width: 100%;          height:100%;}
+.w0h0   {width:  0px;          height: 0px;}
+
+.w100   {width: 100%} .h100   {height: 100%}
+.w95    {width:  95%} .h95    {height:  95%}
+.w90    {width:  90%} .h90    {height:  90%}
+.w80    {width:  80%} .h80    {height:  80%}
+.w75    {width:  75%} .h75    {height:  75%}
+.w70    {width:  70%} .h70    {height:  70%}
+.w66    {width:  66%} .h66    {height:  66%}
+.w60    {width:  60%} .h60    {height:  60%}
+.w50    {width:  50%} .h50    {height:  50%}
+.w40    {width:  40%} .h40    {height:  40%}
+.w33    {width:  33%} .h33    {height:  33%}
+.w25    {width:  25%} .h25    {height:  25%}
+.w20    {width:  20%} .h20    {height:  20%}
+.w15    {width:  15%} .h15    {height:  15%}
+.w10    {width:  10%} .h10    {height:  10%}
+.w5     {width:   5%} .h5     {height:   5%}
+.w0     {width:   0%} .h0     {height:   0%}
+
+/*FLEXIN ---------------------------------------------*/
+.flex           {display:        flex          ;} .jcsb           {justify-content: space-between ;} 
+.none           {display:        none          ;} .jcsa           {justify-content: space-around  ;}
+.table          {display:        table         ;} .jcc            {justify-content: center        ;}
+.column         {flex-direction: column        ;} .jcfe           {justify-content: flex-end      ;}
+.colRev         {flex-direction: column-reverse;} .aic            {align-items:     center        ;}
+.row            {flex-direction: row           ;} .tac            {text-align:      center        ;}
+.rowRev         {flex-direction: row-reverse   ;} .underlign      {text-decoration: underline     ;}
+
+
+/*TEXT SIZE------------------------------------------*/
+.textXL{font-size:    2vw;}
+.textL {font-size:  1.5vw;}
+.textM {font-size:    1vw;}
+.textS {font-size: 0.75vw;}
+.textXS{font-size:  0.5vw;}
+
+/*TEXT COLOR------------------------------------------*/
+.textWhite{color: #ebdbb2}  
+
+/*BACKGROUND COLORS-----------------------------------*/
+.bgblack{background-color: #1d2021}
+
+/*RED BORDERS-----------------------------------------*/
+
+/* SPECIFIC SETTINGS----------------------------------*/
+
+    /*Main Frame Style*/
+    .frame {border-width: 1px; border-color: #ebdbb2; border-style: solid; box-sizing: border-box;}
+
+
+
+</style>
+
+
+<html class="flex jcc aic">
+
+    <body class="flex w100 h100 jcc aic bgblack">
+
+        <div id="afterClickLogo"class="frame flex column w100 h100 jcc aic">
+            <div class="flex column h95 w95">
+            <!--NAV------------------------------------------------------------------------------->
+            <header class="flex row w100 h15 jcsb reddots">
+
+                <div id="buttonCV"            class="flex w15 h100 reddots textWhite textXL underlign target">CV</div>
+                <div id="buttonAbout"         class="flex w15 h100 reddots textWhite textXL underlign rowRev target">About</div>
+
+            </header>
+
+            <!--MAIN------------------------------------------------------------------------------->
+            <main class="flex w100 h75 column aic jcc reddots">
+
+                <section id="hellomynameis" class="flex w50 h10 jcc aic textWhite textXL reddots">Hello, my name is William.</section>
+                <section id="iamdev"        class="flex w30 h10 jcc aic textWhite textXL reddots">I am a web dev.</section>
+                <section id="iamdev"        class="flex w30 h10 jcc aic textWhite textXL reddots">With my JS skills,</section>
+                <section id="iamdev"        class="flex w30 h10 jcc aic textWhite textXL reddots">I can show you a banana.</section>
+                <section id="downArrow"     class="flex w5  h5                              reddots"></section>
+
+            </main>
+
+            <!--FOOT------------------------------------------------------------------------------->
+            <footer class="flex w100 h15 jcsb aic reddots">
+
+                <div id="buttonLogo"    class="flex w15 h100 reddots colRev target"><img class="w70 h40" src="./logo3.svg" alt=""></div>
+                <div id="buttonContact" class="flex     h100 colRev asfe textWhite reddots underlign textXL target">Contact</div>
+
+            </div>
+        </div>
+
+            <div id="afterClickCv"      class="frame none column w100 h100 jcc aic textWhite"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/560px-Bananas.svg.png" class="flex fill" style="width: 50%; height: 50%;" alt=""></div>
+            <div id="afterClickAbout"   class="frame none column w100 h100 jcc aic textWhite">uuu</div>
+            <div id="aferClickContact"  class="frame none column w100 h100 jcc aic textWhite">ttt</div>
+
+
+            
+
+    </body>
+
+        <script defer>
+
+document.addEventListener("click", (event) => {
+
+//Aim closest frame (Out of 4)
+let f = event.target.closest(".frame")
+
+//Get Frame H & W
+fHeightParsed = parseInt(getComputedStyle(f).height)
+fWidthParsed = parseInt(getComputedStyle(f).height)
+
+//Store F & W for use later
+let fHP = fHeightParsed
+let fWP = fWidthParsed
+
+console.log(fHP)
+
+let state = 0
+//Close Current Frame
+
+if (state == 0) {
+    let timerClose = setInterval(function () {
+        console.log("plo")
+        f.style.height = fHeightParsed + "px"
+        fHeightParsed -= 10
+        f.style.width = fWidthParsed + "px"
+        fWidthParsed -= 10
+        if ((fHeightParsed < 0) || (fWidthParsed < 0)){
+
+            f.classList.remove("flex")
+            f.classList.add("none")
+            clearInterval(timerClose)
+
+            let uu = document.querySelector("#afterClickCv")
+            uu.style.height = "0px"
+            uu.style.width = "0px"
+            uu.classList.remove("none")
+            uu.classList.add("flex")
+            let fph = parseInt(uu.style.height)
+            let fpw = parseInt(uu.style.width)
+
+            let timerOpen = setInterval(function () {
+
+                console.log(uu)
+                console.log(fph)
+
+                uu.style.height = fph + "px"
+                fph += 10
+
+                uu.style.width = fpw + "px"
+                fpw += 10
+                if ((fph >= fHP) || (fpw >= fWP)) {
+                    clearInterval(timerOpen)
+                }
+            }, 1); state = 0
+        }
+    }, 1)
+        ;
+}
+
+console.log("sss")
+//Define Function to Expand Selected Frame [f = new frame h = fHP, w = fWP]
+
+
+})
+
+/*
+
+
+document.addEventListener("click", (event) => {
+
+let f = event.target.closest(".frame")
+fHeightParsed = parseInt(getComputedStyle(f).height)
+fWidthParsed = parseInt(getComputedStyle(f).height)
+
+let fHP = fHeightParsed
+let fWP = fWidthParsed
+
+let timer = setInterval(function(){ 
+f.style.height = fHeightParsed+"px"
+fHeightParsed -= 10
+f.style.width = fWidthParsed+"px"
+fWidthParsed -= 10
+if ((fHeightParsed < 0)||(fWidthParsed < 0)){
+    clearInterval(timer)
+}}, 1);
+
+function expand(f, h, w){
+    f.style.height = 0
+    f.style.width = 0
+
+    let timer = setInterval(function(){ 
+f.style.height = fHeightParsed+"px"
+fHeightParsed -= 10
+f.style.width = fWidthParsed+"px"
+fWidthParsed -= 10
+if ((fHeightParsed < 0)||(fWidthParsed < 0)){
+    clearInterval(timer)
+}}, 1);
+}
+
+
+
+    let targetElement = event.target.closest(".target")
+    if (targetElement == null){console.log("j'aime les poireaux")}
+    else if (targetElement.id == "buttonCV"){
+console.log(fw)
+    }
+
+
+})*/
+        </script>
+        
+</html>

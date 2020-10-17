@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="/sso/static/css/bootstrap.min.css"ZgotmplZ>
+    <link rel="stylesheet" href="/sso/static/css/signin.css"ZgotmplZ>
+    <link rel="icon" type="image/x-icon" href="/sso/favicon.ico">
+    <title>A/I Login - Sign In</title>
+  </head>
+
+  <body>
+    <div class="container" id="main">
+
+
+    <form class="form-signin" action="/sso/login" method="post">
+      <input type="hidden" name="gorilla.csrf.Token" value="nhQtxvBW8xLenfyWo/melLge8IlOOgwhhfr/RsNPoOnP91++oL2TxDuxPFPQoGZMPBgmrsXV1mOYOFUIEmrjRA==">
+
+      <div class="row no-gutters">
+          
+          <div class="col-sm-auto">
+            <img src="/sso/img/site_logo">
+          </div>
+          
+          <div class="col-sm-auto">
+            <h1 class="form-signin-heading">Sign In</h1>
+          </div>
+      </div>
+
+      
+
+      <label for="inputUsername" class="sr-only">
+        Username
+      </label>
+      <input type="text" name="username" id="inputUsername"
+             class="form-control"
+             
+             placeholder="Username"
+              autocomplete="off" required autofocus>
+
+      <label for="inputPassword" class="sr-only">
+        Password
+      </label>
+      <input type="password" name="password" id="inputPassword"
+             class="form-control" placeholder="Password" autocomplete="off" required>
+
+      
+      <p>
+        <small>
+          <a href="/account/recovery">
+            Forgot your password?
+          </a>
+        </small>
+      </p>
+      
+
+      <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+
+    </form>
+
+
+    </div>
+
+    <script src="/sso/static/js/jquery-3.3.1.min.js"ZgotmplZ></script>
+    <script src="/sso/static/js/popper-1.14.3.min.js"ZgotmplZ></script>
+    <script src="/sso/static/js/bootstrap-4.1.3.min.js"ZgotmplZ></script>
+
+
+  </body>
+</html>
+

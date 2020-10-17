@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<script>
+
+window.onload = function(){
+
+
+  let frame = document.querySelector("#frame")
+  let main = document.querySelector("#main")
+  let gene = document.querySelector("#gene")
+  let header = document.querySelector("#header")
+  let footer = document.querySelector("#footer")
+
+  frame.onclick = function(){
+
+    frame.classList.add("expand")
+    main.classList.add("expanddownmain")
+    gene.classList.add("expanddowngene")
+    nav.classList.add("expanddownnav")
+    footer.classList.add("expanddownfooter")
+    
+  }
+}
+
+
+</script>
+
+
+<style>
+
+  *{padding:0px; margin: 0px;}
+  
+
+.fill{width:100%;height:100%}
+
+.flex{display: flex;}
+.column{flex-direction: column;}
+.row{flex-direction: row;}
+.jcsb{justify-content: space-between;}
+.jcsa{justify-content: space-around;}
+.jcc{justify-content: center;}
+.aic{align-items: center;}
+
+
+.textwhite{color: #ebdbb2}
+.bgblack{background-color: #3c3836}
+
+.w0h0{width: 0px; height: 0px;}
+
+
+html{background-color: #191D20;
+  margin: 3%;
+  position :absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  }
+
+.reddots{border-width: 3px; border-color: red; border-style: dotted;}
+.navbutton{width: 15%; height: 10%;}
+
+
+/*
+#frame{border-width: 20px; border-color: #ebdbb2; border-style: solid;}
+#nav{width: 100%; height: 20%;}
+#main{width:100%; height:70%}
+#gene{width: 100%; height: 5%;}
+#footer{width:100%; height:10%}*/
+
+#frame{border-width: 20px; border-color: #ebdbb2; border-style: solid;}
+#nav{width: 100%; height: 0%;}
+#main{width:100%; height:0%}
+#gene{width: 100%; height: 0%;}
+#footer{width:100%; height:0%}
+
+
+
+@keyframes expand{
+    0%{width:0%}
+    100%{width:100%}
+    0%{height:0%}
+    100%{height:100%}    
+  }
+  .expand{animation:expand 1s;animation-fill-mode:forwards;} 
+
+
+  @keyframes expanddownnav{
+    0%{height:0%}
+    100%{height:20%}    
+  }
+  .expanddownnav{animation:expanddownnav 1s;animation-fill-mode:forwards; animation-delay: 1s;} 
+
+  @keyframes expanddownmain{
+    0%{height:0%}
+    100%{height:70%}    
+  }
+  .expanddownmain{animation:expanddownmain 1s;animation-fill-mode:forwards; animation-delay: 1s;} 
+  
+  @keyframes expanddowngene{
+    0%{height:0%}
+    100%{height:5%}    
+  }
+  .expanddowngene{animation:expanddowngene 1s;animation-fill-mode:forwards; animation-delay: 1s;} 
+  
+  @keyframes expanddownfooter{
+    0%{height:0%}
+    100%{height:10%}    
+  }
+  .expanddownfooter{animation:expanddownfooter 1s;animation-fill-mode:forwards; animation-delay: 1s;} 
+
+/*
+  @keyframes .expand
+    {0%{border-width: 20px;}
+    100%{border-width: 5px;}}
+  .expand{animation:expand 1s;animation-fill-mode:forwards;} 
+*/
+
+
+#hellomynameis{width:50%; height: 20%;}
+#iamdev{width: 30%;height: 12%;}
+#bulb{ width: 5%; height: 5%;}
+#fred{width: 5%; height: 100% ;}
+#legal{width: 20%; height: 100%;}
+</style>
+
+
+<html class="bgblack flex jcc aic">
+
+<body class="fill flex aic jcsa fadein fadein2">
+  <div id="frame" class="flex column w0h0">
+    
+    <!--NAV------------------------------------------------------------------------------->
+    <div id="nav" class="flex jcc aic reddots">
+      <div class="navbutton reddots"></div>
+      <div class="navbutton reddots"></div>
+      <div class="navbutton reddots"></div>
+      <div class="navbutton reddots"></div>
+      <div class="navbutton reddots"></div>
+    </div>
+
+    <!--MAIN------------------------------------------------------------------------------->
+    <div id="main" class="flex column aic  jcc reddots">
+        <div id="hellomynameis" class="reddots"></div>
+        <div id="iamdev" class="reddots"></div>
+        <div id="bulb" class="reddots"></div>
+    </div>
+
+    <!-- SMALL BUTTON --------------------------------------------------------------------->
+
+    <div id="gene" class="flex jcc reddots">
+      <div id="fred" class="reddots"></div>
+    </div>
+
+    <!--FOOT------------------------------------------------------------------------------->
+    <div id="footer" class="flex reddots">
+      <div id="legal" class="reddots"></div>
+      <div id="legal" class="reddots"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
