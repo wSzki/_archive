@@ -1,0 +1,48 @@
+html, body {
+  font-family: monospace;
+  margin: 0 !important; 
+  padding: 0 !important;
+  height: 100%;
+  width: 99%;
+  font-size: 1.75em;
+    overflow: hidden; 
+}
+body, #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 99%;
+    overflow: hidden; 
+}
+#clock {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: -20vh;
+  margin-bottom: 30px;
+    overflow: hidden; 
+  display: none;
+}
+#input {
+  text-align: center;
+  font-size: inherit;
+  font-family: roboto;
+  color: inherit;
+  background: transparent;
+    overflow: hidden; 
+  border: none;
+  outline: none;
+  width: 99%;
+}
+#message {
+  font-size: 0.5em;
+  margin-top: 42px;
+  text-align: center;
+    overflow: hidden; 
+}
+#clock,
+#input,
+#message {
+  font-family:'Liberation Mono', Roboto, sans-serif;
+    overflow: hidden; 
+}

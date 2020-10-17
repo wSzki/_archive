@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/wsz/Downloads/blogChefDoeuvre/server-app/routes'
+let g:netrw_dirhist_4='/home/wsz/Downloads/blogChefDoeuvre/server-app'
+let g:netrw_dirhist_3='/home/wsz/Downloads/blogChefDoeuvre/front-app'
+let g:netrw_dirhist_2='/home/wsz/Downloads/blogChefDoeuvre'
+let g:netrw_dirhist_1='/home/wsz/_METEO'
+let g:netrw_dirhist_0='/home/wsz/_METEO/components'
+let g:netrw_dirhist_9='/home/wsz/.config'
+let g:netrw_dirhist_8='/home/wsz/.config/i3blocks-email'
+let g:netrw_dirhist_7='/home/wsz/.config'
+let g:netrw_dirhist_6='/home/wsz'

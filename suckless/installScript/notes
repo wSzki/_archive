@@ -1,0 +1,224 @@
+tenserflow
+
+
+CUBE OLAP == 3 dimension array
+
+Japonais + Espagnol
+Education 42 Simplon
+
+Experienes truc de Remi
+Enlever le detail
+
+mise en page
+
+photo
+15h de c 42 par jour
+
+Age
+
+Titre = Recherche de stage Dev Web
+
+
+WATCH persona de ingmar bergman
+
+
+
+================================================================
+
+#GIT
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+for autolog
+
+git config --global credential.helper 'store --file ~/.my-credentials'
+for autolog and store
+
+git config --global --edit
+to undo this 
+
+
+change the origin to ssh
+git remote set-url origin git@github.com:username/repo.git
+
+#PKGBUILD
+
+makepkg -si
+-si is for dependencies
+
+
+.less
+
+anime.js
+
+
+
+#PARTITION
+gparted
+sudo fdisk -l
+sudo mkdir /hdd
+sudo vim /etc/fstab
+/dev/sda3 /hdd/ etx4 / defaults    0 0 
+sudo mount /hdd
+
+
+
+#YOUTUBE DL
+youtube-dl = only music -f 140
+
+
+#XINITRC
+.xinitrc is at home
+
+#Check
+
+taskwarrior
+cfiles
+
+download vulcan headers for mpv
+mpsyt
+
+check manual for youtubedl
+
+
+
+#To repair wifi
+ip link set wlan0 down
+https://wiki.archlinux.org/index.php/netctl#Job_for_netctl.40wlan.28....29.service_failed
+sudo systemctl stop NetworkManager.service
+sudo systemctl disable NetworkManager.service
+
+Networkmanager = nmcli
+wifi-menu uses netctl
+
+#Apply patch
+patch --merge -i <patch.diff>
+
+
+#Set mouse speed
+xinput --set-prop <device id> 'libinput Accel Speed' <acceleration factor>
+xinput --list-props <device id>
+xinput list
+
+#Natural Scrolling
+#under MatchIsTouchpad "on"
+#add
+Option "NaturalScrolling" "true"
+in /etc/X11/xorg.conf.d/<device name>
+==> Also set mouse speed here
+
+#Set brightness
+xrandr --output eDP1 --brightness 0.5
+xbacklight -dec 20
+xbacklight -inc 20
+xbacklight -set 50 <default 100>
+xgamma -gamma 0.8 <default 1>
+
+#Set screen temp color 
+redshift -P -O 3000
+
+
+#Battery life
+cat /sys/class/power_supply/BAT0/capacity
+
+
+#Apply a patch
+git apply <name>.diff
+
+#Remove a patch
+git apply -R <name>.diff
+
+#Install a patch
+make clean install
+
+#Bluetooth
+Bluetooth control
+Find how to enable service automatically
+systemctl?
+bluetoothctl
+
+
+Git init
+git remote add origin <url>
+edit the config file in .git/config
+add ihavetea@ before the repo url
+
+autolog = ssh-keygen -t rsa
+then cat /home/wsz/.ssh/id_rsa.pub
+.pub is public
+
+then copy the key to github 
+
+
+
+
+
+#AUDIO
+alsamixer
+pusleaudio-start
+install alsa-ultis
+
+#Weather
+curl wttr.in
+
+#DWM TIPS
+shift alt 0 to pin
+shift alt other to unpin
+
+alt i to add second screen to master stack
+alt d to remove second screen to master stack
+alt m to monocle
+
+#SUCKLESS
+ST
+>anysize
+>luke github
+
+DWM
+>column
+
+SURF
+>homepage
+
+#HEDI
+ingenieur systeme
+
+#Hey
+
+fzf is great
+htop too
+pydf for diisk usage
+youtubedl is awesome
+cmus too i guess
+ranger is best
+
+
+Maybe MC is clear
+Maybe nnn
+Maybe cfiles
+Maybe fff is more logical
+
+KRITA GIMP INKSCSAPE
+VS CODE html stuff auto rename auto close / gruvbox minor / indent rainbow
+INKSCAPE
+CHROMIUM >> Go back with space // Vimium // ABP // Raindrop
+THUNAR IS BETTER THAN NAUTILUS >> ctrl m for status bar // ctrl 1 2 3 for icon view
+LYNX
+Pianoteq
+Reaper
+
+#COPY PASTE
+xclip <filename>
+xclip -sel clip <filename>
+echo <cmd> | xclip
+
+
+#BACKUPS
+zrc
+vrc
+lynxrc?
+notes
+
+#REAPER
+tar xvf <package name.tar.xz>
+
+To install packages from AUR, makepkg
