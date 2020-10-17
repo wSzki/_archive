@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<script defer>
+
+
+
+    function expShr(a) {
+
+        const elementId = document.querySelector("#" + a)
+        const height = getComputedStyle(elementId).height
+        console.log("Element height = " + height)
+
+        const parentId = elementId.parentNode.id
+        const parentElement = document.querySelector("#" + parentId)
+        console.log(parentElement)
+        const parentHeight = getComputedStyle(parentElement).height
+        console.log("Parent height = " + parentHeight)
+
+
+        console.log("Height of element relative to parent = " + (Math.floor(parseFloat(height) / parseFloat(parentHeight) * 100)))
+
+    }
+
+</script>
+
+</html>

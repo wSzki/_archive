@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My First React Example</title>
+</head>
+
+<body>
+    <div id="greeting-div"></div>
+
+    <script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+
+
+
+
+
+
+    <!--Babel Translates JSX Into JS-->
+    <script type="text/babel">
+
+
+////////////////////////////////////////////////////////////////////////////
+
+        // This creates a component
+        var Greeting = React.createClass({ 
+            render: function(){
+                return (<p>Hello, Universe</p>)
+            }
+        });
+
+        /////////////////////
+        console.log(Greeting)
+        /////////////////////
+
+        // This renders the component 
+        ReactDOM.render(
+            <Greeting />,
+            document.getElementById('greeting-div')
+        );
+
+// WE CREATE ANOTHER COMPONENT
+////////////////////////////////////////////////////////////////////////////
+
+        // PROPS. Creates a </Greetings> element, which return a <p> with a getter for each props 
+        var Greetings = React.createClass({
+            render: function () {
+                return (<p>{this.props.prop}</p>)
+            }
+        })
+
+        ///////////////////// 
+        console.log(Greetings)
+        ///////////////////// 
+
+        // Renders the second component         
+   
+        
+        let i = 0;
+
+        ///////////////////// 
+        console.log()
+        ///////////////////// 
+/*                                                                                              !!
+        setInterval(function () {
+            var msg = ['Hello', 'World', 'Olleh']
+
+            console.log("yo")
+            console.log(i)
+            console.log(msg)
+            console.log(msg[i])
+
+            if (i < 3) {
+
+                console.log("no")
+                ReactDOM.render(<Greetings prop={msg[i]}/>, document.getElementById('greeting-div'));
+                i++;
+
+                console.log()
+            }
+
+        }, 2000);
+                                                                                                !! */
+    </script>
+</body>
+
+</html>

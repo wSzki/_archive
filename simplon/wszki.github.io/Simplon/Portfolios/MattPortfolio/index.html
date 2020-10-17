@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/85aacc2d82.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="w100 h100 flex frame column minh">
+
+    <!-- HEADER --------------------------------------------------------->
+    <!-- ABOUT --------------------------------------------------------->
+
+    <header class="w100 h100 flex column frame">
+        <div class="w100 h20 flex row frame jcc aic">About</div>
+        <div class="w100 h80 flex row frame">
+            <div class="w25 h100 flex row frame">
+                <i class="fas fa-smile"></i>
+                <h3>Satisfying</h3>
+                <p>It's important for me to make websites easy tu use for an UX/UI intuitive.</p>
+            </div>
+            <div class="w25 h100 flex row frame">
+                <i class="fas fa-pen"></i>
+                <h3>Creative</h3>
+                <p>I’m always looking for new ideas and how to assimilate them into my projects.</p>
+            </div>
+            <div class="w25 h100 flex row frame">
+                <i class="fas fa-arrows-alt"></i>
+                <h3>Adaptable</h3>
+                <p>I make my achievements responsive and work on all devices.</p>
+            </div>
+            <div class="w25 h100 flex row frame">
+                <i class="fas fa-bolt"></i>
+                <h3>Dynamic</h3>
+                <p>As a daily internet user, I am fully aware of the importance of creating living websites.</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MAIN --------------------------------------------------------->
+    <!-- SKILLS --------------------------------------------------------->
+
+    <main id="main" class="w100 h100 flex column frame">
+        <!--1-->
+        <div id="mainContainer" class="w100 h100 flex column frame">
+            <!--1.1-->
+            <div id="mainHeader"class="w100 h20 flex row frame jcc aic">Skills</div>
+            <!--1.2-->
+            <div id="mainImageAndBar" class="w100 h80 flex row frame">
+                <!--1.2.1-->
+                <div id="mainImageContainer"class="w25 h100 flex row frame jcc aic">
+                    <img class="w100 h50" src="assets/img/pro1.jpg" alt="Picture of me">
+                </div>
+                <!--1.2.2-->
+                <div id="mainBarContainer" class="w75 h100 flex row frame"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- EDUCATION --------------------------------------------------------->
+    <section class="w100 h100 flex column frame">
+        <div class="w100 h20 flex column frame jcc aic">Education</div>
+        <div class="w100 h80 flex row frame">
+            <div class="w25 h100 flex column frame jcc aic">
+                <i class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="w75 h100 flex column frame">
+                <div class="w100 h33 flex column frame jcc aic">
+                    <h3>School of Simplon.co</h3>
+                </div>
+                <div class="w100 h33 flex column frame jcc aic">
+                    <b>School of Simplon.co, Web and mobile web developer training, 2019 - Present</b>
+                </div>
+                <div class="w100 h33 flex column frame jcc aic">
+                    <p>Diploma recognized by the State, RNCP level III title, Bachelor’s degree equivalent and two certifications recognized by the State : Agile methods of project management and initiation and OPQUAST - Quality control in Web project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT --------------------------------------------------------->
+    <section class="w100 h100 flex column frame">
+        <div class="w100 h20 flex column frame jcc aic">Contact</div>
+        <div class="w100 h50 flex column frame jcc aic">
+            <img class="w80 h100" src="assets/img/cartography.png" alt="world map">
+        </div>
+        <div class="w100 h10 flex row frame jcsa">
+            <div class="w33 h100 flex column frame jcc aic"><i class="fa fa-chevron-circle-right" style="color: #80deea"></i>Magny-Les-Hameaux, France</div>
+            <div class="w33 h100 flex column frame jcc aic"><i class="fa fa-chevron-circle-right" style="color: #80deea"></i>mathieu.montjarret@icloud.com</div>
+            <div class="w33 h100 flex column frame jcc aic"><i class="fa fa-chevron-circle-right" style="color: #80deea"></i>06.08.85.00.05</div>
+        </div>
+        <div class="w100 h33 flex column frame">
+            <div class="w100 h100 flex row frame jcsa">
+                <div class="w15 h100 flex column frame jcc aic">
+                    <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+                </div>
+                <div class="w15 h100 flex column frame jcc aic">
+                    <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+                </div>
+                <div class="w15 h100 flex column frame jcc aic">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="w15 h100 flex column frame jcc aic">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                </div>
+            </div>
+            <div class="w100 h60 flex column frame jcc aic">
+                <input type="text" id="message" name="message" placeholder="Your message">
+            </div>
+            <div class="w100 h20 flex column frame jcc aic">
+                <button onclick="data()" type="button">Submit</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

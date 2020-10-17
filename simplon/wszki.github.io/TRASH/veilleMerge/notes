@@ -1,0 +1,85 @@
+
+
+============================================================================================
+
+
+#cd pour s'assurer que nous sommes dans la racine des dossiers de l'utilisateur.
+#pwd permet d'afficher le chemin du dossier actual (Present Working Directory)
+
+cd
+pwd
+
+=============================================================================================
+
+#Ici on clone le repository. Le premier argument est l'adresse HTTP ou SSH du repository. Le deuxieme est optionel, c'est le nom que vous attribuez au fichier une fois telechargé.
+#Il sera téléchargé dans ~/
+
+git clone nomDuRepository nomDuFichier
+
+=============================================================================================
+
+#Nous ouvrons le dossier
+
+#Si vous lui avez donné un nom
+cd nomDuFichier
+
+#Sinon, il prendra par defaut le nom du repository
+cd nomDuRepository
+
+============================================================================================
+
+Nous nous trouvons actuellement dans ~/nomDuRepository
+
+Avec la command shell [ ls -la ], vous constatez qu'il se trouve un dossier [.git]
+Ce dossier contient toutes les informtions sur les commits, les URLs des repositories, etc. Il contient egalement un log pour permettre de revenir a une version precedente du repo.
+Ce dossier .git relie grosso moddo votre repo a github.
+
+Nous nous trouvons par defaut sur la branche MASTER de votre repo, soit la branche principale dite "de production"
+
+=============================================================================================
+
+Creation d'une page html dans avec uniquement 2 balises <html></html>
+
+Ce fichier sera le fichier sur lequel nous devrons faire un [git merge]
+En pratique, il s'agira de votre code fonctionnel.
+Nous ne souhaitons pas continuer a travailler sur le code fonctionnel pour l'instant, pour eviter de casser le code.
+Nous creons alors des [clones] (copies) de ce code qui se trouve sur le [master], que nous placerons sur des [branches].
+Lorsque nous aurons fini de travailler et de tester les branches, nous appliquerons les changements sur le master via un [git merge]
+
+============================================================================================
+
+#Push 
+git add .
+git commit -m "commit master"
+git push origin master
+
+============================================================================================
+
+#Creation de la premiere branche
+git branch premiereBranche
+
+#Passage de la branche MASTER a premiereBranche
+git checkout premiereBranche
+
+#Visiblement a part le nom rien n'a changé, mais vous travaillez maintenant sur une copie du fichier HTML qui se trouve sur la branche MASTER
+
+Edition du fichier html sur la branche premiereBranche
+
+=============================================================================================
+
+#Push du fichier édité, sur la premiere branche
+git add . 
+git commit -m "commit premiereBranche"
+git push origin premiereBranche
+
+
+============================================================================================
+#Creation de la seconde
+
+============================================================================================
+============================================================================================
+============================================================================================
+============================================================================================
+============================================================================================
+============================================================================================
+

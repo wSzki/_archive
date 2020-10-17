@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="120mm"
+   viewBox="0 0 150 120"
+   version="1.1"
+   id="svg9050"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs9044">
+    <inkscape:perspective
+       id="perspective8818"
+       inkscape:persp3d-origin="116.34799 : 18.643879 : 1"
+       inkscape:vp_z="221.34799 : 68.143877 : 1"
+       inkscape:vp_y="0 : 999.99993 : 0"
+       inkscape:vp_x="11.348 : 68.143877 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient8021">
+      <stop
+         id="stop8019"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient7925">
+      <stop
+         id="stop7923"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="marker6967"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DistanceStart"
+       inkscape:isstock="true">
+      <g
+         id="g6965"
+         style="fill:#280b0b;fill-opacity:0.04705882;stroke:none;stroke-opacity:1">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#280b0b;fill-opacity:0.04705882;stroke:none;stroke-width:1.14999998;stroke-linecap:square;stroke-opacity:1"
+           d="M 0,0 H 2"
+           id="path6959" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#280b0b;fill-opacity:0.04705882;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           id="path6961" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#280b0b;fill-opacity:0.04705882;stroke:none;stroke-width:1;stroke-linecap:square;stroke-opacity:1"
+           d="M 0,-4 V 40"
+           id="path6963" />
+      </g>
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6326"
+       style="overflow:visible">
+      <g
+         style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-opacity:0.43921569"
+         id="g6324">
+        <path
+           inkscape:connector-curvature="0"
+           id="path6318"
+           d="M 0,0 H 2"
+           style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-width:1.14999998;stroke-linecap:square;stroke-opacity:0.43921569" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6320"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           style="fill:#550000;fill-opacity:0.51999996;fill-rule:evenodd;stroke:none;stroke-opacity:0.43921569" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6322"
+           d="M 0,-4 V 40"
+           style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-width:1;stroke-linecap:square;stroke-opacity:0.43921569" />
+      </g>
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DistanceStart"
+       style="overflow:visible">
+      <g
+         style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-opacity:0.43921569"
+         id="g2300">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2306"
+           d="M 0,0 H 2"
+           style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-width:1.14999998;stroke-linecap:square;stroke-opacity:0.43921569" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2302"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           style="fill:#550000;fill-opacity:0.51999996;fill-rule:evenodd;stroke:none;stroke-opacity:0.43921569" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2304"
+           d="M 0,-4 V 40"
+           style="fill:#550000;fill-opacity:0.51999996;stroke:none;stroke-width:1;stroke-linecap:square;stroke-opacity:0.43921569" />
+      </g>
+    </marker>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient6002">
+      <stop
+         id="stop6000"
+         offset="0"
+         style="stop-color:#c8be4b;stop-opacity:0.43921569;" />
+    </linearGradient>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.23895182"
+     inkscape:cx="439.46356"
+     inkscape:cy="228.34101"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg9050"
+     showgrid="false"
+     height="110mm"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9047">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="opacity:1;fill:#0000ff;fill-opacity:0.51530612;stroke:none;stroke-width:1.20000005;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect2447"
+     width="76.124565"
+     height="74.740486"
+     x="11.42846"
+     y="13.872272"
+     ry="37.370243" />
+  <rect
+     style="opacity:1;fill:#ff3400;fill-opacity:0.51530612;stroke:none;stroke-width:1.20000005;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect2447-2"
+     width="76.124565"
+     height="74.740486"
+     x="65.529427"
+     y="30.481283"
+     ry="37.370243" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot2464"
+     style="font-style:normal;font-weight:normal;font-size:53.33333588px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     transform="matrix(0.53507922,0,0,0.57091639,-165.76845,-24.025355)"><flowRegion
+       id="flowRegion2466"
+       style="font-size:53.33333588px;fill:#ffffff"><rect
+         id="rect2468"
+         width="91.02253"
+         height="70.097809"
+         x="381.87613"
+         y="101.09256"
+         style="font-size:53.33333588px;fill:#ffffff" /></flowRegion><flowPara
+       id="flowPara2470"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;font-family:Corbel;-inkscape-font-specification:Corbel;fill:#ffffff">C</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot2464-3"
+     style="font-style:normal;font-weight:normal;font-size:53.33333588px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     transform="matrix(0.53507923,0,0,0.57091638,-112.26844,-7.4596915)"><flowRegion
+       id="flowRegion2466-2"
+       style="font-size:53.33333588px;fill:#ffffff"><rect
+         id="rect2468-6"
+         width="91.02253"
+         height="70.097809"
+         x="381.87613"
+         y="101.09256"
+         style="font-size:53.33333588px;fill:#ffffff" /></flowRegion><flowPara
+       id="flowPara2470-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;font-family:Corbel;-inkscape-font-specification:Corbel;fill:#ffffff">O</flowPara></flowRoot></svg>

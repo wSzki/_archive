@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script>
+    window.onload = function () {
+
+        const tab = [96, 55, 785, 72, 563]
+        let tabTemp;
+        let i = 0;
+        while (i < tab.length) {
+                j = i + 1
+                if (tab[i] > tab[j]) {
+                    tabTemp = tab[j]
+                    tab[j] = tab[i]
+                    tab[i] = tabTemp
+                    i = 0
+                    console.log("hello")
+                }
+                i++;
+        }
+        console.log(tab)
+    }
+</script>
+</html>

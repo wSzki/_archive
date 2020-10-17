@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+
+    html { font-family: 'Oswald', sans-serif; text-rendering: optimizeLegibility; }
+    
+    .shade { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08); }
+    .shader {   border:0px;box-shadow: 5px 0 0px -2px #888; }
+
+    @keyframes fadeout {
+    from { opacity: 1; z-index: 1;}
+    to   { opacity: 0; z-index: 0;}
+}
+
+#welcome{opacity:0 ; z-index: -1; animation: fadeout 4s}
+
+    .backTop {
+        background-color: #FFCB33;
+        right: 50px;
+        bottom: 50px;
+        height: 50px;
+        width: 50px;
+        border-radius: 999px;
+    }
+</style>
+
+<body>
+
+    <!---------------------------------------------------------------------------------------------------------->
+    <!--MOBILE NAVBAR------------------------------------------------------------------------------------------->
+    <nav class="none (grid) shade col10 row1 fixed bgWhite0 w100 h5">
+        <div id="menuButton " class="center textXL      "> &#9776; </div>
+        <div id="logoRenault" class="center gcs2 gce10"> <img class="w33" src="./images/logo-groupe-renault.svg" alt="">
+        </div>
+        <div id="searchIcon " class="center textXL gcs10"> <i class="fa fa-search" aria-hidden="true"></i> </div>
+    </nav>
+
+    <!----------------------------------------------------------------------------------------------------------->
+    <!--DESKTOP NAVBAR------------------------------------------------------------------------------------------->
+    <nav class="grid shade col20 row1 fixed bgWhite0 w100 h5">
+        <div id="logoRenault" class="center gcs1 gce5"> <img class="pleft10 maxh75"
+                src="./images/logo-groupe-renault.svg" alt=""> </div>
+        <div id="menuList   " class="flex jcsa aic row gcs6 gce17      ">
+            <a class="textBlack0" href="">• Venir sur le site</a>
+            <a class="textBlack0" href="">• S’orienter sur le site</a>
+            <a class="textBlack0" href="">• Se réunir</a>
+            <a class="textBlack0" href="">• Se restaurer</a>
+            <a class="textBlack0" href="">• Règlement intérieur</a>
+            <a class="textBlack0" href="">• Contacts et numéros utiles</a>
+        </div>
+        <div id="searchIcon " class="center textXL gcs19 gce21"> <i class="fa fa-search" aria-hidden="true"></i></div>
+    </nav>
+    <!----------------------------------------------------------------------------------------------------------->
+
+
+    <!----------------------------------------------------------------------------------------------------------->
+    <!--RETURN TO TOP-------------------------------------------------------------------------------------------->
+    <a href="#top" class="textBlack0 flex jcc aic fixed backTop textXL"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!----------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------->
+    <!--WELCOME ANIMATION---------------------------------------------------------------------------------------->
+    <img id="welcome" src="./images/wp4045836.jpg" class="fixed w100 h100" alt="">
+    <!----------------------------------------------------------------------------------------------------------->
+
+
+    <!--SECTION 1---------------------------------------------------------------------------------------->
+    <main>
+        <div class="shade flex column jcc aic w100 h100 bgWhite0">
+            <img class="w800px" src="./images/welcome-img.png" alt="">
+            <p class="w800px textXXL tac">
+                Parce qu’une intégration réussie est une
+                condition indispensable pour une prise de poste performante, nous
+                vous proposons ces parcours de formation pour vous accompagner et vous permettre de monter en
+                compétences dans des domaines clés.
+            </p>
+        </div>
+
+        <!--SECTION 2---------------------------------------------------------------------------------------->
+        <div class="flex jcc aic w100 h100 bgGrey10">
+            <img src="./images/video.png" alt="">
+        </div>
+
+        <div class="grid row20 col20 jcc aic w100 h100 bgWhite0">
+            <div class="grid row20 col20 w100 h100 gcs2 grs3 gce11 gre20 shader">
+                <div class="gcs1 grs1 gce21 gre21"></div>
+            </div>
+            <div class="grid row20 col20 w100 h100 gcs11 grs3 gce19 gre20 ">
+                <div class="gcs1 grs1 gce21 gre21"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
