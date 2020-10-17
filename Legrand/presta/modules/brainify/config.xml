@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>brainify</name>
+    <displayName><![CDATA[Brainify Free Dashboard]]></displayName>
+    <version><![CDATA[4.5.0]]></version>
+    <description><![CDATA[Save time and make the best marketing decisions with the first Ecommerce Analytics. Take control over your data.]]></description>
+    <author><![CDATA[Brainify]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete your details ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

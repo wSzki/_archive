@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/en/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/en/blog/feed.xml</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>The search engine, a strategic feature of your e-shop</title>
+    <link>https://www.prestashop.com/en/blog/search-engine-e-shop</link>
+    <description>You have worked on the structure and contents of your catalog, put in place a detailed menu and integrated a faceted filter on your categories… But you still notice that your customers can’t always</description>
+     <pubDate>Tue, 10 Mar 2020 17:31:24 +0100</pubDate>
+ <dc:creator>Richard Stefan</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/search-engine-e-shop</guid>
+  </item>
+  <item>
+    <title>The PrestaShop 2020 Must-haves</title>
+    <link>https://www.prestashop.com/en/blog/prestashop-awards-2020</link>
+    <description>The PrestaShop team is pleased to present our selection of modules and themes for your online shop.</description>
+     <pubDate>Mon, 09 Mar 2020 16:37:40 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-awards-2020</guid>
+  </item>
+  <item>
+    <title>PrestaShop has unveiled a range of new features for your online store</title>
+    <link>https://www.prestashop.com/en/blog/new-features-prestashop-2020</link>
+    <description>A wave of new features to help retailers sell better</description>
+     <pubDate>Fri, 06 Mar 2020 17:06:36 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/new-features-prestashop-2020</guid>
+  </item>
+  <item>
+    <title>Social selling: what&amp;#039;s behind the latest buzz word?</title>
+    <link>https://www.prestashop.com/en/blog/social-selling-2020</link>
+    <description>I bet you’ve heard of social selling before, but you might not be completely sure what the term implies?</description>
+     <pubDate>Wed, 04 Mar 2020 17:56:26 +0100</pubDate>
+ <dc:creator>bulldesign</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/social-selling-2020</guid>
+  </item>
+  <item>
+    <title>UX Pro tips to improve your menu and labels’ design</title>
+    <link>https://www.prestashop.com/en/blog/ux-tips-menu-design</link>
+    <description>User experience, or UX, is fundamentally about creating an experience that fits the needs of your visitors.</description>
+     <pubDate>Thu, 27 Feb 2020 18:05:28 +0100</pubDate>
+ <dc:creator>Vytaure Banyte</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ux-tips-menu-design</guid>
+  </item>
+  <item>
+    <title>The KPIs that matter for an online store</title>
+    <link>https://www.prestashop.com/en/blog/kpis-ecommerce</link>
+    <description>Data? What we think of the term &amp;amp; does it hold that much importance in your business? The answer is absolute “yes”.</description>
+     <pubDate>Thu, 20 Feb 2020 18:04:49 +0100</pubDate>
+ <dc:creator>Webkul</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/kpis-ecommerce</guid>
+  </item>
+  <item>
+    <title>Discover new perspectives of page building</title>
+    <link>https://www.prestashop.com/en/blog/new-perspectives-page-building</link>
+    <description>Today an increasing number of users feel that the website’s design determines whether to trust a business or not.</description>
+     <pubDate>Mon, 17 Feb 2020 12:30:30 +0100</pubDate>
+ <dc:creator>Janos Biro EN</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/new-perspectives-page-building</guid>
+  </item>
+  <item>
+    <title>Four ways to make returns better</title>
+    <link>https://www.prestashop.com/en/blog/better-returns-shipping-ecommerce</link>
+    <description>Returns happen to the best of us. They’re not fun for customers or merchants, and worst of all, they can be costly.</description>
+     <pubDate>Mon, 10 Feb 2020 17:32:13 +0100</pubDate>
+ <dc:creator>James Messer</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/better-returns-shipping-ecommerce</guid>
+  </item>
+  <item>
+    <title>Product Flow in e-commerce: What are we talking about?</title>
+    <link>https://www.prestashop.com/en/blog/e-commerce-flow</link>
+    <description>For online shoppers, it is just about placing the order and getting it delivered at their doorstep, but for e-commerce merchants, the process from order creation to its delivery is a relay race.</description>
+     <pubDate>Mon, 03 Feb 2020 11:46:53 +0100</pubDate>
+ <dc:creator>NitinSrivastavaen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/e-commerce-flow</guid>
+  </item>
+  <item>
+    <title>The future of delivery: what will it look like?</title>
+    <link>https://www.prestashop.com/en/blog/future-of-delivery</link>
+    <description>From the robotic solutions tested in China or the United States, to improving local coverage, what are the advances that will </description>
+     <pubDate>Thu, 30 Jan 2020 17:26:58 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/future-of-delivery</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url("/modules/brainify/views/fonts/Proxima Nova/proximanova-regular-webfont.ttf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url("/modules/brainify/views/fonts/Proxima Nova/proximanova-semibold-webfont.ttf") format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url("/modules/brainify/views/fonts/Proxima Nova/proximanova-bold-webfont.ttf") format('truetype');
+    font-weight: 700;
+}
+
+.brainify-page {
+    font-family: 'Proxima Nova' !important;
+    background: white;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+}
+.brainify-page h1,h2,h3 {
+    font-family: 'Proxima Nova' !important;
+}
+.header {
+    float: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#ba-step2, #login, #resetPassword {
+    padding: 20px 0;
+}
+
+
+@media (max-width: 1499px) {
+    #ba-step1, .confirm-mail, .final-step {
+        font-family: 'Proxima Nova';
+        padding: 5% 5% !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    #ba-step1, .confirm-mail, .final-step {
+        font-family: 'Proxima Nova';
+        padding: 10% 10% !important;
+    }
+}
+
+#ba-step1 h1, .confirm-mail h1, .final-step h1 {
+    font-family: 'Proxima Nova';
+    color: #222222;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.clickableTest {
+    cursor: pointer;
+    text-decoration : underline;
+}
+.confirm-mail, .final-step {
+     text-align: center;
+ }
+
+.confirm-mail h1, .final-step h1 {
+    font-weight: 700;
+}
+
+.confirm-mail .row, .final-step .row {
+    margin-bottom: 56px;
+}
+
+.confirm-mail #confirmationForm .ba-form-group {
+    width: 35%;
+    display : inline-block;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.final-step .link-bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    font-size: 11px;
+    color:silver;
+    cursor: pointer;
+}
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.thematiques {
+    text-align: center;
+    margin-top: 20px;
+}
+.thematiques .row{
+    margin-bottom: 50px;
+}
+.thematiques h3 {
+    margin: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.ba-h2 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #222 !important;
+}
+
+.ba-form-fail {
+    line-height: 42px;
+    color: #f26c68;
+    display: none;
+}
+
+.row {
+    background: inherit;
+}
