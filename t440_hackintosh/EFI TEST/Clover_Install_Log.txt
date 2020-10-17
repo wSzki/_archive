@@ -1,0 +1,41 @@
+
+Clover EFI installer log - Thu Mar  5 00:34:17 CET 2020
+Installer version: v2.4k r4701.RM-4963.ca6cca7c EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *30.8 GB    disk0
+   1:                 DOS_FAT_32 CLOVER EFI              209.7 MB   disk0s1
+   2:                  Apple_HFS install_osx             30.5 GB    disk0s2
+
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS Untitled                249.2 GB   disk1s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk1s3
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +7.7 GB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS InstallESD              7.4 GB     disk2s2
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            macOS Mojave Patcher   +512.0 MB   disk3
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/CLOVER EFI/EFIROOTDIR/boot  to /Volumes/CLOVER EFI/EFI-Backups/r4701/2020-03-05-00h34/boot
+Backing up /Volumes/CLOVER EFI/EFIROOTDIR/EFI folder to /Volumes/CLOVER EFI/EFI-Backups/r4701/2020-03-05-00h34/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/CLOVER EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/CLOVER EFI
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
