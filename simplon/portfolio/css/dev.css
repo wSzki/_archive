@@ -1,0 +1,125 @@
+.fixie{max-width: auto;}
+.w1500px     {width:   1500px}
+.maxw1500px     {max-width:   1500px}
+.h1500px     {height:   1500px}
+.w100px     {width:   100px}
+.w150px     {width:   150px}
+.h75px{height: 75px; min-height: 75px;}
+.h50px{height: 50px; min-height: 50px;}
+.w50px{width: 50px; min-width: 50px;}
+.w75px{width: 75px; min-width: 75px;}
+
+.autoW{width: auto;}
+.autoH{height: 100%;}
+
+
+/*TEXT SIZE------------------------------------------*/
+.textXL{font-size:    xx-large;}
+.textL {font-size: x-large;}
+.textS {font-size: small;}
+.textXS{font-size:  0.5vw;}
+
+
+
+/*Icon Size*/
+.iconXL{font-size:200%;}
+.iconXXL{font-size:500%;}
+
+
+/*FILTER----------------------------------------------*/
+.invert{filter:invert(100%);}
+
+
+
+/*BACKGROUND COLORS-----------------------------------*/
+.bgblack{background-color: #1d2021}
+
+/* SPECIFIC SETTINGS----------------------------------*/
+
+    /*Main Frame Style*/
+    .frameRed {border-width: 1px; border-color: red; border-style: solid; box-sizing: border-box;}
+    .frameWhite{border-width: 1px; border-color: white; border-style: solid; box-sizing: border-box;}
+    .fr{border-width: 1px; border-color: white; border-style: dotted; box-sizing: border-box;}
+
+.bla {background-image: url("./img/rightCorner.svg");}
+
+
+    .textwhite3{color: #f2e5bc}      .bgwhite3{background-color: #f2e5bc}
+
+    /*
+  div{position: relative;}
+  div:after {
+      content: "";
+      background: #ebdbb2;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 10%;
+      width: 5px;
+    }
+
+
+    div:after {
+      content: "";
+      background: #ebdbb2;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 5px;
+      width: 10%;
+    }
+
+    */
+
+    div .frame3:before{
+      content:" ";
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 2px;
+      
+      margin-left: -2px;
+      margin-top: -2px;
+
+      background-color: ivory;
+    }
+
+
+
+
+    
+  /*  
+    background-repeat: no-repeat;
+    background-position: calc(0% - 170px) 50%;
+    overflow:hidden;}
+*/
+
+    #b:after{height: 100%; width: 100%}
+
+
+    a:link {
+      color: none;
+        text-decoration: none;
+
+    }
+    
+    /* visited link */
+    a:visited {
+      color: none;
+        text-decoration: none;
+
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: none;
+        text-decoration: none;
+
+    }
+    
+    /* selected link */
+    a:active {
+      color: none;
+        text-decoration: none;
+
+    }
